@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zadaniaDomowe;
+package main.java.pl.pwlctk.kurs02.zadaniaDomowe;
 
 import java.io.IOException;
 import java.math.BigInteger;

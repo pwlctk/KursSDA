@@ -10,7 +10,7 @@ public class Rectangle extends Shape {
         this.b = b;
     }
 
-    public double area(){
-        return a*b;
+    public double area() {
+        return a * b;
     }
 }

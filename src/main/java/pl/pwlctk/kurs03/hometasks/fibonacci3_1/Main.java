@@ -21,7 +21,7 @@ public class Main {
             for (int element : fib.getAllElements()) {
                 content.append(element).append("\n");
             }
-            Writer writer = new Writer(content.toString(), "Fibonacci(" + fn + ").txt" );
+            Writer writer = new Writer(content.toString(), "Fibonacci(" + fn + ").txt");
             writer.writeToDisk();
         }
     }

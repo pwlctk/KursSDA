@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zajecia;
+package main.java.pl.pwlctk.kurs02.zajecia;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class Delta {
         if (a == 0) {
             System.out.println("To nie jest równanie kwadratowe: a = " + a);
         } else {
-            System.out.println("Równanie ma postać: " + a + "x^2 + (" + b + ")x + " +"("+c+")");
+            System.out.println("Równanie ma postać: " + a + "x^2 + (" + b + ")x + " + "(" + c + ")");
             double delta = Math.pow(b, 2) - 4 * (a * c);
             System.out.println("\nDelta = " + delta);
             if (delta < 0) {

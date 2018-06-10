@@ -6,7 +6,7 @@ public abstract class Shape {
 
     public abstract double area();
 
-    public void print(){
+    public void print() {
         System.out.println(greeting);
 
     }

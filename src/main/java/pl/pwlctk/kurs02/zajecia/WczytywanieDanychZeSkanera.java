@@ -1,6 +1,5 @@
-package pl.pwlctk.kurs02.zajecia;
+package main.java.pl.pwlctk.kurs02.zajecia;
 
-import javax.swing.*;
 import java.util.Locale;
 import java.util.Scanner;
 

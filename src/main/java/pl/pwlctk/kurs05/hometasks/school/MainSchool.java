@@ -44,25 +44,25 @@ public class MainSchool {
         ((Student) students.get(4)).addCourseGrade("Jak żyć", 2);
 
         System.out.println(students.get(0));
-        ((Student)students.get(0)).printGrades();
+        ((Student) students.get(0)).printGrades();
         System.out.println();
         System.out.println(students.get(1));
-        ((Student)students.get(1)).printGrades();
+        ((Student) students.get(1)).printGrades();
 
         teachers.add(new Teacher("Mistrz Zen", "Zawadzka 6"));
         teachers.add(new Teacher("Profesor Benc", "Wystrzałowa 10"));
 
-        ((Teacher)teachers.get(0)).addCourse("Matematyka");
-        ((Teacher)teachers.get(0)).addCourse("Informatyka");
-        ((Teacher)teachers.get(0)).addCourse("Astronautyka");
-        ((Teacher)teachers.get(0)).addCourse("Kosmonautyka");
-        ((Teacher)teachers.get(0)).addCourse("Nauka szybkiego uczenia");
-        ((Teacher)teachers.get(0)).addCourse("Biznes od 0");
+        ((Teacher) teachers.get(0)).addCourse("Matematyka");
+        ((Teacher) teachers.get(0)).addCourse("Informatyka");
+        ((Teacher) teachers.get(0)).addCourse("Astronautyka");
+        ((Teacher) teachers.get(0)).addCourse("Kosmonautyka");
+        ((Teacher) teachers.get(0)).addCourse("Nauka szybkiego uczenia");
+        ((Teacher) teachers.get(0)).addCourse("Biznes od 0");
 
-        ((Teacher)teachers.get(1)).addCourse("Religia");
-        ((Teacher)teachers.get(1)).addCourse("Jak żyć");
-        ((Teacher)teachers.get(1)).addCourse("Rolnictwo od podstaw");
-        ((Teacher)teachers.get(1)).addCourse("Historia krajobrazu");
+        ((Teacher) teachers.get(1)).addCourse("Religia");
+        ((Teacher) teachers.get(1)).addCourse("Jak żyć");
+        ((Teacher) teachers.get(1)).addCourse("Rolnictwo od podstaw");
+        ((Teacher) teachers.get(1)).addCourse("Historia krajobrazu");
 
         janitors[0].addClassRoom(10);
         janitors[0].addClassRoom(11);

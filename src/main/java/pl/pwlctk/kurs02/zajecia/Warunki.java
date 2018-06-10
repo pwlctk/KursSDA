@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zajecia;
+package main.java.pl.pwlctk.kurs02.zajecia;
 
 public class Warunki {
 
@@ -19,7 +19,7 @@ public class Warunki {
 
 
         boolean isAlaMaKota = 3 > 3 && 3 < 3;
-        if(isAlaMaKota)
+        if (isAlaMaKota)
             System.out.println("haha");
 
         if (a) {

@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs03.zajecia;
+package main.java.pl.pwlctk.kurs03.zajecia;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,8 +12,6 @@ public class ZapisDoPliku {
         writer.println(); //nowa linia
         writer.flush();
     }
-
-
 
 
 }

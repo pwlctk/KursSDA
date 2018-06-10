@@ -5,12 +5,12 @@ package main.java.pl.pwlctk.kurs07.tasks.interfejsy.zajecia;
  */
 public class Corp extends Company implements Employer {
 
-	public Corp(String companyName) {
-		super(companyName);
-	}
+    public Corp(String companyName) {
+        super(companyName);
+    }
 
-	@Override
-	public String getCompanyName() {
-		return companyName;
-	}
+    @Override
+    public String getCompanyName() {
+        return companyName;
+    }
 }

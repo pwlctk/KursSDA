@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zajecia;
+package main.java.pl.pwlctk.kurs02.zajecia;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class BoooomDoWhile {
         int number = in.nextInt();
 
         System.out.println("Bomba wybuchnie za:");
-        do{
+        do {
             Thread.sleep(500);
             System.out.print(number + "... ");
 
@@ -20,7 +20,7 @@ public class BoooomDoWhile {
             }
 
             number--;
-        }while(number > 0);
+        } while (number > 0);
 
     }
 }

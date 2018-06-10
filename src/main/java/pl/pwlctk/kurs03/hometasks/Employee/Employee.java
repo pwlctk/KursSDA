@@ -1,10 +1,10 @@
 package main.java.pl.pwlctk.kurs03.hometasks.Employee;
 
 public class Employee {
+    private static int id = 0;
     private String name;
     private String surname;
     private int age;
-    private static int id = 0;
     private int employeeId;
     private String workingPosition;
     private double salary;

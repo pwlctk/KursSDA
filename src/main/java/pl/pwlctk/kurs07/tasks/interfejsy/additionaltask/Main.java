@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println(word);
         System.out.println(task.charAt(0));
-        System.out.println(task.subSequence(3,7));
+        System.out.println(task.subSequence(3, 7));
         System.out.println(task);
 
     }

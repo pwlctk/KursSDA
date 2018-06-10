@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zajecia;
+package main.java.pl.pwlctk.kurs02.zajecia;
 
 public class KolejneZadanie {
 
@@ -22,11 +22,10 @@ public class KolejneZadanie {
         System.out.println((char) liczba);
 
         System.out.println(String.valueOf(liczba + 5) + 0);
-        System.out.println(liczbaA/(double)liczbaB);
+        System.out.println(liczbaA / (double) liczbaB);
 
         System.out.println("Coś" + "7");
         System.out.println("Coś" + 7);
-
 
 
     }

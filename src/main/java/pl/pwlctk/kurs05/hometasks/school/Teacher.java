@@ -1,8 +1,8 @@
 package main.java.pl.pwlctk.kurs05.hometasks.school;
 
 public class Teacher extends Person {
-    private int numOfCourses;
     String[] courses;
+    private int numOfCourses;
 
     public Teacher(String name, String address) {
         super(name, address);

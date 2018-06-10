@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs01.zadaniaDomowe;
+package main.java.pl.pwlctk.kurs01.zadaniaDomowe;
 
 public class Zadanie1_1 {
 
@@ -11,6 +11,7 @@ public class Zadanie1_1 {
                 , 'J', 'a', 'v');
         System.out.println(formattedText);
     }
+
     public static void main(String[] args) {
         formattedText();
 

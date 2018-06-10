@@ -10,7 +10,7 @@ public class FormatDecimal {
         DecimalFormat decimalFormat = new DecimalFormat();
 
         DecimalFormatSymbols instance = DecimalFormatSymbols.
-                getInstance(new Locale("pl","PL"));
+                getInstance(new Locale("pl", "PL"));
         decimalFormat.setDecimalFormatSymbols(instance);
 
         long bigNumber = 423232342342L;

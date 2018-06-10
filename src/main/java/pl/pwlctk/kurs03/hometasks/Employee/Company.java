@@ -1,7 +1,5 @@
 package main.java.pl.pwlctk.kurs03.hometasks.Employee;
 
-import main.java.pl.pwlctk.kurs03.hometasks.Employee.Employee;
-
 public class Company {
     public static void main(String[] args) {
         int hiredEmployes = 3;

@@ -1,6 +1,6 @@
 package main.java.pl.pwlctk.kurs07.tasks.interfejsy;
 
-public class CommonPerson implements Person{
+public class CommonPerson implements Person {
     private String firstName;
     private String lastName;
 

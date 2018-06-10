@@ -39,7 +39,7 @@ public class MainLibrary {
         System.out.println("Wyszukiwanie książki po autorze: " + paulina);
         int counter = 0;
         for (Book book : library.findBooksByAuthor(paulina)) {
-                System.out.println(++counter + ". " + book);
+            System.out.println(++counter + ". " + book);
         }
 
 

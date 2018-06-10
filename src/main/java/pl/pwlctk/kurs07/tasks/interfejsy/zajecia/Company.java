@@ -5,9 +5,9 @@ package main.java.pl.pwlctk.kurs07.tasks.interfejsy.zajecia;
  */
 public class Company {
 
-	protected String companyName;
+    protected String companyName;
 
-	public Company(String companyName) {
-		this.companyName = companyName;
-	}
+    public Company(String companyName) {
+        this.companyName = companyName;
+    }
 }

@@ -3,8 +3,8 @@ package main.java.pl.pwlctk.kurs05.hometasks.school.Data;
 import main.java.pl.pwlctk.kurs05.hometasks.school.Person;
 
 public class PersonList {
-    int capacity;
     protected int size;
+    int capacity;
     private Person[] people;
 
     public PersonList(int capacity) {

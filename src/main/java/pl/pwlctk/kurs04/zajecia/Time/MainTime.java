@@ -7,16 +7,11 @@ public class MainTime {
         Time time3 = new Time("10:32");
 
 
-
-
         System.out.println("\nWynik dodawania: " + time2 + " oraz " + time3);
         Time time4 = time2.add(time3);
         System.out.println(time4);
 
         System.out.println("\n" + time2 + " oraz " + time3);
-
-
-
 
 
         int multipler = 3;

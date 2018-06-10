@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zadaniaDomowe;
+package main.java.pl.pwlctk.kurs02.zadaniaDomowe;
 
 import java.math.BigInteger;
 import java.util.Random;
@@ -48,7 +48,8 @@ public class PrimeNumbers {
         }
         return isPrimeNumber;
     }
-//certainty - dokładność!
+
+    //certainty - dokładność!
     private static boolean isPrimeNumberBigInteger(int certainty) {
         BigInteger prime = new BigInteger(("423423"));
         prime.isProbablePrime(100);

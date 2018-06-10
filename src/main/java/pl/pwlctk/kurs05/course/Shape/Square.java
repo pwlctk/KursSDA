@@ -1,6 +1,6 @@
 package main.java.pl.pwlctk.kurs05.course.Shape;
 
-public class Square extends Shape{
+public class Square extends Shape {
     protected int a;
 
     public Square(int a) {

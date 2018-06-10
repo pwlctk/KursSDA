@@ -10,6 +10,7 @@ public class Circle {
     public double area() {
         return 2 * Math.PI * radius;
     }
+
     public double perimeter() {
         return Math.PI * Math.pow(radius, 2);
     }
@@ -17,6 +18,7 @@ public class Circle {
     public int getRadius() {
         return radius;
     }
+
     public void setRadius(int radius) {
         this.radius = radius;
     }

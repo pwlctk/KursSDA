@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zadaniaDomowe;
+package main.java.pl.pwlctk.kurs02.zadaniaDomowe;
 
 import java.math.BigInteger;
 import java.util.Scanner;
@@ -35,10 +35,9 @@ public class FibonacciBigInteger {
     }
 
     private static BigInteger fibonacci(long fn) {
-        if(fn == 1){
+        if (fn == 1) {
             return BigInteger.ONE;
-        }
-        else {
+        } else {
             BigInteger f1 = BigInteger.ZERO;
             BigInteger f2 = BigInteger.ONE;
             BigInteger score = BigInteger.ZERO;

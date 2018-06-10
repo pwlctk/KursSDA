@@ -25,8 +25,8 @@ public class Secik {
         System.out.println(status);
 
         System.out.println("Set: ");
-        for (Object o: secik){
-            System.out.print(o +" ");
+        for (Object o : secik) {
+            System.out.print(o + " ");
         }
 
     }

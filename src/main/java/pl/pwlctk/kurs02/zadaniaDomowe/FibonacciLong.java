@@ -1,4 +1,4 @@
-package pl.pwlctk.kurs02.zadaniaDomowe;
+package main.java.pl.pwlctk.kurs02.zadaniaDomowe;
 
 import java.util.Scanner;
 
@@ -39,7 +39,7 @@ public class FibonacciLong {
     private static long fibonacci(int fn) {
         if (fn < 2)
             return fn;
-         else {
+        else {
             long f1 = 0;
             long f2 = 1;
             long score = 0;

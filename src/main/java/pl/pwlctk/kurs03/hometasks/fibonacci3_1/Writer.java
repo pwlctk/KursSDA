@@ -21,6 +21,7 @@ public class Writer {
         this.filename = filename;
         this.path = "src\\main\\resources\\";
     }
+
     public Writer(String content, String filename, String path) {
         this.content = content;
         this.filename = filename;
