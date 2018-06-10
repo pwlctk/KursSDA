@@ -12,7 +12,7 @@ public class ZUS {
 		ZUS zus = new ZUS();
 		Corp corp = new Corp("Microsoft");
 		SklepOsiedlowy sklepik = new SklepOsiedlowy("U Bożeny");
-		Spółka zoo = new Spółka("Soft S.A.");
+		Spolka zoo = new Spolka("Soft S.A.");
 
 		OsobaFizyczna ja = new OsobaFizyczna("Jan", "Kowalski");
 
