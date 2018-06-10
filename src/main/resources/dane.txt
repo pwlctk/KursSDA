@@ -1,0 +1,3 @@
+inwokacja.txt;src\main\resources\folder\
+Silnia(1000000).txt;src\main\resources\archiwum\
+wirus.exe;src\main\resources\kosz\
