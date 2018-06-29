@@ -19,15 +19,35 @@ public class SilniaBigInteger {
         } while (number < 0);
 
         System.out.println("Trwa obliczanie silni...");
-        String factorial = factorial(number);
 
-        System.out.println("Silnia liczby " + number + " wynosi: " + factorial);
+        String textNumber = String.valueOf(number);
+        BigInteger BigNum = new BigInteger(textNumber);
+        SilniaBigInteger program = new SilniaBigInteger();
+
+        //liczenie metoda1
+        long startTime = System.currentTimeMillis();
+        //String factorial = program.factorial(number).toString();
+        long endTime = System.currentTimeMillis();
+
+        //liczenie metoda2
+        long startTime1 = System.currentTimeMillis();
+        String factorial1 = program.factorialNew(BigNum).toString();
+        long endTime1 = System.currentTimeMillis();
+
+
+        long duration1 = (endTime - startTime);
+        long duration2 = (endTime1 - startTime1);
+       // System.out.println("Silnia liczby " + number + " wynosi: " + factorial);
+        System.out.println("Silnia liczby " + number + " wynosi: " + factorial1);
+        System.out.println("Czas obliczeń tradycyjnie: " + duration1);
+        System.out.println("Czas obliczeń BigInteger: " + duration2);
+
 
         //zapis do pliku
-        writeToFile(number, factorial);
+        //program.writeToFile(number, factorial);
     }
 
-    private static void writeToFile(int factorialNumber, String factorial) {
+    private void writeToFile(int factorialNumber, String factorial) {
         System.out.println("Trwa zapisywanie do pliku...");
         Path path = Paths.get("src\\main\\resources\\Silnia(" + factorialNumber + ").txt");
         try {
@@ -39,20 +59,32 @@ public class SilniaBigInteger {
         }
     }
 
-    private static String factorial(int n) {
-        if (n == 0)
-            return "1";
-        else {
-            BigInteger factorial = BigInteger.ONE;
-            while (n > 0) {
-                factorial = factorial.multiply(BigInteger.valueOf(n));
-                n--;
-            }
-            return factorial.toString();
+    private BigInteger factorial(int n) {
+        BigInteger factorial = BigInteger.ONE;
+        while (n > 0) {
+            factorial = factorial.multiply(BigInteger.valueOf(n));
+            n--;
         }
+        return factorial;
     }
+
+    public BigInteger factorialNew(BigInteger n) {
+        BigInteger result = BigInteger.ONE;
+        while (!n.equals(BigInteger.ZERO)) {
+            result = result.multiply(n);
+            n = n.subtract(BigInteger.ONE);
+        }
+        return result;
+    }
+
+
+
+
+
+
+
 }
 
-/*
-Napisz program obliczający silnię z wykorzystaniem pętli (do wyboru) oraz klasy BigInteger co pozwoli na liczenie bardzo dużych wartości. Np. 150!
- */
+//1. Czas liczenia silnii
+//2. Zapis do pliku
+//3. Informacje o ilości znaków
